@@ -1,0 +1,1286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render ConnectionsControl render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ConnectionsControlPure
+    formInitialValues={
+      Object {
+        "mac": 1,
+        "pin": 1,
+      }
+    }
+    freePinQuantity={11}
+    isOpen={true}
+    name="Mark Yuliy Cesar"
+    onCleanPin={[Function]}
+    pinFree={2}
+    pinQuantity={2}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="header"
+        >
+          <div
+            className={undefined}
+          >
+            <Styled(Text)
+              isThreeSixB={true}
+              size={36}
+              sizeTablet={24}
+            >
+              <FormattedMessage
+                id="connections_control_title"
+                values={Object {}}
+              />
+            </Styled(Text)>
+          </div>
+        </div>,
+        <ul
+          className="list"
+        />,
+        undefined,
+        <Pins
+          client_id={undefined}
+          onPinClick={undefined}
+          pins={Array []}
+        />,
+        <Popup
+          isOpen={false}
+          mobileSize={95}
+          onCloseClick={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          shadowOpacity="0.5"
+          size={50}
+          tabletSize={70}
+          tinyMobileSize={99}
+          title={
+            <FormattedMessage
+              id="form_pin_title"
+              values={Object {}}
+            />
+          }
+        >
+          <Connect(connectionsControlForm)
+            deviceEditing={undefined}
+            initialValues={
+              Object {
+                "mac": 1,
+                "pin": 1,
+              }
+            }
+            onChangeForm={undefined}
+            onChangeType={undefined}
+            onCloseClick={undefined}
+            values={undefined}
+          />
+        </Popup>,
+        <Popup
+          isOpen={false}
+          onCloseClick={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          shadowOpacity="0.5"
+          size={50}
+          title={
+            <FormattedMessage
+              id="cancel_pin_title"
+              values={Object {}}
+            />
+          }
+        >
+          <div
+            className="popupInfo"
+          >
+            <Styled(Text)
+              isThreeSixB={true}
+              size={18}
+              sizeTablet={12}
+            >
+              PIN: 1
+            </Styled(Text)>
+            <Styled(Text)
+              isThreeSixB={true}
+              size={18}
+              sizeTablet={12}
+            >
+              MAC: 1
+            </Styled(Text)>
+          </div>
+          <div
+            className="popupBtns"
+          >
+            <div
+              className="button"
+            >
+              <Styled(Button)
+                data-action="close"
+                onClick={undefined}
+                wide={true}
+              >
+                <Styled(Text)
+                  size={18}
+                >
+                  <FormattedMessage
+                    id="form_pin_cancel"
+                    values={Object {}}
+                  />
+                </Styled(Text)>
+              </Styled(Button)>
+            </div>
+            <div
+              className="button"
+            >
+              <Styled(Button)
+                onClick={undefined}
+                wide={true}
+              >
+                <Styled(Text)
+                  size={18}
+                >
+                  <FormattedMessage
+                    id="cancel_pin_btn"
+                    values={Object {}}
+                  />
+                </Styled(Text)>
+              </Styled(Button)>
+            </div>
+          </div>
+        </Popup>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className={undefined}
+          >
+            <Styled(Text)
+              isThreeSixB={true}
+              size={36}
+              sizeTablet={24}
+            >
+              <FormattedMessage
+                id="connections_control_title"
+                values={Object {}}
+              />
+            </Styled(Text)>
+          </div>,
+          "className": "header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Styled(Text)
+              isThreeSixB={true}
+              size={36}
+              sizeTablet={24}
+            >
+              <FormattedMessage
+                id="connections_control_title"
+                values={Object {}}
+              />
+            </Styled(Text)>,
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                id="connections_control_title"
+                values={Object {}}
+              />,
+              "isThreeSixB": true,
+              "size": 36,
+              "sizeTablet": 24,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "id": "connections_control_title",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+          "className": "list",
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "ul",
+      },
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "client_id": undefined,
+          "onPinClick": undefined,
+          "pins": Array [],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Connect(connectionsControlForm)
+            deviceEditing={undefined}
+            initialValues={
+              Object {
+                "mac": 1,
+                "pin": 1,
+              }
+            }
+            onChangeForm={undefined}
+            onChangeType={undefined}
+            onCloseClick={undefined}
+            values={undefined}
+          />,
+          "isOpen": false,
+          "mobileSize": 95,
+          "onCloseClick": [Function],
+          "onMouseLeave": [Function],
+          "onMouseOver": [Function],
+          "shadowOpacity": "0.5",
+          "size": 50,
+          "tabletSize": 70,
+          "tinyMobileSize": 99,
+          "title": <FormattedMessage
+            id="form_pin_title"
+            values={Object {}}
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "deviceEditing": undefined,
+            "initialValues": Object {
+              "mac": 1,
+              "pin": 1,
+            },
+            "onChangeForm": undefined,
+            "onChangeType": undefined,
+            "onCloseClick": undefined,
+            "values": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="popupInfo"
+            >
+              <Styled(Text)
+                isThreeSixB={true}
+                size={18}
+                sizeTablet={12}
+              >
+                PIN: 1
+              </Styled(Text)>
+              <Styled(Text)
+                isThreeSixB={true}
+                size={18}
+                sizeTablet={12}
+              >
+                MAC: 1
+              </Styled(Text)>
+            </div>,
+            <div
+              className="popupBtns"
+            >
+              <div
+                className="button"
+              >
+                <Styled(Button)
+                  data-action="close"
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    size={18}
+                  >
+                    <FormattedMessage
+                      id="form_pin_cancel"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>
+              </div>
+              <div
+                className="button"
+              >
+                <Styled(Button)
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    size={18}
+                  >
+                    <FormattedMessage
+                      id="cancel_pin_btn"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>
+              </div>
+            </div>,
+          ],
+          "isOpen": false,
+          "onCloseClick": [Function],
+          "onMouseLeave": [Function],
+          "onMouseOver": [Function],
+          "shadowOpacity": "0.5",
+          "size": 50,
+          "title": <FormattedMessage
+            id="cancel_pin_title"
+            values={Object {}}
+          />,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Styled(Text)
+                  isThreeSixB={true}
+                  size={18}
+                  sizeTablet={12}
+                >
+                  PIN: 1
+                </Styled(Text)>,
+                <Styled(Text)
+                  isThreeSixB={true}
+                  size={18}
+                  sizeTablet={12}
+                >
+                  MAC: 1
+                </Styled(Text)>,
+              ],
+              "className": "popupInfo",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "PIN: 1",
+                  "isThreeSixB": true,
+                  "size": 18,
+                  "sizeTablet": 12,
+                },
+                "ref": null,
+                "rendered": "PIN: 1",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "MAC: 1",
+                  "isThreeSixB": true,
+                  "size": 18,
+                  "sizeTablet": 12,
+                },
+                "ref": null,
+                "rendered": "MAC: 1",
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="button"
+                >
+                  <Styled(Button)
+                    data-action="close"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      size={18}
+                    >
+                      <FormattedMessage
+                        id="form_pin_cancel"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>,
+                <div
+                  className="button"
+                >
+                  <Styled(Button)
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      size={18}
+                    >
+                      <FormattedMessage
+                        id="cancel_pin_btn"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>,
+              ],
+              "className": "popupBtns",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Styled(Button)
+                    data-action="close"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      size={18}
+                    >
+                      <FormattedMessage
+                        id="form_pin_cancel"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>,
+                  "className": "button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Text)
+                      size={18}
+                    >
+                      <FormattedMessage
+                        id="form_pin_cancel"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>,
+                    "data-action": "close",
+                    "onClick": undefined,
+                    "wide": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <FormattedMessage
+                        id="form_pin_cancel"
+                        values={Object {}}
+                      />,
+                      "size": 18,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "id": "form_pin_cancel",
+                        "values": Object {},
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Styled(Button)
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      size={18}
+                    >
+                      <FormattedMessage
+                        id="cancel_pin_btn"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>,
+                  "className": "button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Text)
+                      size={18}
+                    >
+                      <FormattedMessage
+                        id="cancel_pin_btn"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>,
+                    "onClick": undefined,
+                    "wide": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <FormattedMessage
+                        id="cancel_pin_btn"
+                        values={Object {}}
+                      />,
+                      "size": 18,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "id": "cancel_pin_btn",
+                        "values": Object {},
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="header"
+          >
+            <div
+              className={undefined}
+            >
+              <Styled(Text)
+                isThreeSixB={true}
+                size={36}
+                sizeTablet={24}
+              >
+                <FormattedMessage
+                  id="connections_control_title"
+                  values={Object {}}
+                />
+              </Styled(Text)>
+            </div>
+          </div>,
+          <ul
+            className="list"
+          />,
+          undefined,
+          <Pins
+            client_id={undefined}
+            onPinClick={undefined}
+            pins={Array []}
+          />,
+          <Popup
+            isOpen={false}
+            mobileSize={95}
+            onCloseClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            shadowOpacity="0.5"
+            size={50}
+            tabletSize={70}
+            tinyMobileSize={99}
+            title={
+              <FormattedMessage
+                id="form_pin_title"
+                values={Object {}}
+              />
+            }
+          >
+            <Connect(connectionsControlForm)
+              deviceEditing={undefined}
+              initialValues={
+                Object {
+                  "mac": 1,
+                  "pin": 1,
+                }
+              }
+              onChangeForm={undefined}
+              onChangeType={undefined}
+              onCloseClick={undefined}
+              values={undefined}
+            />
+          </Popup>,
+          <Popup
+            isOpen={false}
+            onCloseClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            shadowOpacity="0.5"
+            size={50}
+            title={
+              <FormattedMessage
+                id="cancel_pin_title"
+                values={Object {}}
+              />
+            }
+          >
+            <div
+              className="popupInfo"
+            >
+              <Styled(Text)
+                isThreeSixB={true}
+                size={18}
+                sizeTablet={12}
+              >
+                PIN: 1
+              </Styled(Text)>
+              <Styled(Text)
+                isThreeSixB={true}
+                size={18}
+                sizeTablet={12}
+              >
+                MAC: 1
+              </Styled(Text)>
+            </div>
+            <div
+              className="popupBtns"
+            >
+              <div
+                className="button"
+              >
+                <Styled(Button)
+                  data-action="close"
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    size={18}
+                  >
+                    <FormattedMessage
+                      id="form_pin_cancel"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>
+              </div>
+              <div
+                className="button"
+              >
+                <Styled(Button)
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    size={18}
+                  >
+                    <FormattedMessage
+                      id="cancel_pin_btn"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>
+              </div>
+            </div>
+          </Popup>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className={undefined}
+            >
+              <Styled(Text)
+                isThreeSixB={true}
+                size={36}
+                sizeTablet={24}
+              >
+                <FormattedMessage
+                  id="connections_control_title"
+                  values={Object {}}
+                />
+              </Styled(Text)>
+            </div>,
+            "className": "header",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Styled(Text)
+                isThreeSixB={true}
+                size={36}
+                sizeTablet={24}
+              >
+                <FormattedMessage
+                  id="connections_control_title"
+                  values={Object {}}
+                />
+              </Styled(Text)>,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  id="connections_control_title"
+                  values={Object {}}
+                />,
+                "isThreeSixB": true,
+                "size": 36,
+                "sizeTablet": 24,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "id": "connections_control_title",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "list",
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "ul",
+        },
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "client_id": undefined,
+            "onPinClick": undefined,
+            "pins": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Connect(connectionsControlForm)
+              deviceEditing={undefined}
+              initialValues={
+                Object {
+                  "mac": 1,
+                  "pin": 1,
+                }
+              }
+              onChangeForm={undefined}
+              onChangeType={undefined}
+              onCloseClick={undefined}
+              values={undefined}
+            />,
+            "isOpen": false,
+            "mobileSize": 95,
+            "onCloseClick": [Function],
+            "onMouseLeave": [Function],
+            "onMouseOver": [Function],
+            "shadowOpacity": "0.5",
+            "size": 50,
+            "tabletSize": 70,
+            "tinyMobileSize": 99,
+            "title": <FormattedMessage
+              id="form_pin_title"
+              values={Object {}}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "deviceEditing": undefined,
+              "initialValues": Object {
+                "mac": 1,
+                "pin": 1,
+              },
+              "onChangeForm": undefined,
+              "onChangeType": undefined,
+              "onCloseClick": undefined,
+              "values": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="popupInfo"
+              >
+                <Styled(Text)
+                  isThreeSixB={true}
+                  size={18}
+                  sizeTablet={12}
+                >
+                  PIN: 1
+                </Styled(Text)>
+                <Styled(Text)
+                  isThreeSixB={true}
+                  size={18}
+                  sizeTablet={12}
+                >
+                  MAC: 1
+                </Styled(Text)>
+              </div>,
+              <div
+                className="popupBtns"
+              >
+                <div
+                  className="button"
+                >
+                  <Styled(Button)
+                    data-action="close"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      size={18}
+                    >
+                      <FormattedMessage
+                        id="form_pin_cancel"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+                <div
+                  className="button"
+                >
+                  <Styled(Button)
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      size={18}
+                    >
+                      <FormattedMessage
+                        id="cancel_pin_btn"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+              </div>,
+            ],
+            "isOpen": false,
+            "onCloseClick": [Function],
+            "onMouseLeave": [Function],
+            "onMouseOver": [Function],
+            "shadowOpacity": "0.5",
+            "size": 50,
+            "title": <FormattedMessage
+              id="cancel_pin_title"
+              values={Object {}}
+            />,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Styled(Text)
+                    isThreeSixB={true}
+                    size={18}
+                    sizeTablet={12}
+                  >
+                    PIN: 1
+                  </Styled(Text)>,
+                  <Styled(Text)
+                    isThreeSixB={true}
+                    size={18}
+                    sizeTablet={12}
+                  >
+                    MAC: 1
+                  </Styled(Text)>,
+                ],
+                "className": "popupInfo",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "PIN: 1",
+                    "isThreeSixB": true,
+                    "size": 18,
+                    "sizeTablet": 12,
+                  },
+                  "ref": null,
+                  "rendered": "PIN: 1",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "MAC: 1",
+                    "isThreeSixB": true,
+                    "size": 18,
+                    "sizeTablet": 12,
+                  },
+                  "ref": null,
+                  "rendered": "MAC: 1",
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="button"
+                  >
+                    <Styled(Button)
+                      data-action="close"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        size={18}
+                      >
+                        <FormattedMessage
+                          id="form_pin_cancel"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>,
+                  <div
+                    className="button"
+                  >
+                    <Styled(Button)
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        size={18}
+                      >
+                        <FormattedMessage
+                          id="cancel_pin_btn"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>,
+                ],
+                "className": "popupBtns",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Styled(Button)
+                      data-action="close"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        size={18}
+                      >
+                        <FormattedMessage
+                          id="form_pin_cancel"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>,
+                    "className": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Text)
+                        size={18}
+                      >
+                        <FormattedMessage
+                          id="form_pin_cancel"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>,
+                      "data-action": "close",
+                      "onClick": undefined,
+                      "wide": true,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <FormattedMessage
+                          id="form_pin_cancel"
+                          values={Object {}}
+                        />,
+                        "size": 18,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "id": "form_pin_cancel",
+                          "values": Object {},
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Styled(Button)
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        size={18}
+                      >
+                        <FormattedMessage
+                          id="cancel_pin_btn"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>,
+                    "className": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Text)
+                        size={18}
+                      >
+                        <FormattedMessage
+                          id="cancel_pin_btn"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>,
+                      "onClick": undefined,
+                      "wide": true,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <FormattedMessage
+                          id="cancel_pin_btn"
+                          values={Object {}}
+                        />,
+                        "size": 18,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "id": "cancel_pin_btn",
+                          "values": Object {},
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

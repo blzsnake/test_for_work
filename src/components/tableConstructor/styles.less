@@ -1,0 +1,80 @@
+@import '../../styles/common/common.less';
+
+.table {
+  display: block;
+}
+
+.header {
+  padding: 17px;
+  display: flex;
+  border-bottom: 2px solid @dark-gray;
+}
+
+.row {
+  padding: 17px;
+  display: flex;
+
+  &:nth-child(even) {
+    background-color: @light-gray;
+  }
+}
+
+.col {
+  width: 100%;
+  text-align: center;
+  line-height: 24px;
+
+  &_0 {
+    max-width: 100px;
+    text-align: left;
+  }
+
+  &:last-child {
+    max-width: 100px;
+    text-align: right;
+  }
+}
+
+.mobileRow {
+  padding: 20px 0;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 2px solid #faf8f8;
+
+  &:first-child {
+    border-top: 2px solid #faf8f8;
+  }
+}
+
+.mobileInfo {
+  margin-left: 20px;
+}
+
+.mobileCol {
+  margin-bottom: 10px;
+  display: flex;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.mobileIndex {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #faf8f8;
+}
+
+.mobileTitle, .mobileText {
+  font-size: 14px;
+}
+
+.mobileTitle {
+  width: 70px;
+  color: #000;
+}
+
+.mobileText {
+  width: 60%;
+  color: @pass-gray;
+}

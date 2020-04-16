@@ -1,0 +1,84 @@
+@import '../../styles/common/common.less';
+
+.loginForm {
+  margin-top: 10vh;
+  padding-bottom: 20vh;
+  display: block;
+
+  @media only screen and (min-width : 1024px) {
+    padding-bottom: 0;
+    margin-top: 25vh;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.choose {
+  padding-top: 30px;
+  display: block;
+  justify-content: center;
+
+  @media only screen and (min-width : 1024px) {
+    display: flex;
+    padding-top: 60px;
+  }
+}
+
+.button {
+  margin: 0 auto;
+  width: 270px;
+
+  @media only screen and (min-width : 1024px) {
+    margin: 0;
+  }
+
+  & + .button {
+    margin-top: 10px;
+    @media only screen and (min-width : 1024px) {
+      margin-top: 0;
+      margin-left: 30px;
+    }
+  }
+}
+
+.pin {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 270px;
+
+  @media only screen and (min-width : 1024px) {
+    max-width: 360px;
+  }
+}
+
+.pinSubmit {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: COLUMN;
+  align-items: center;
+
+  @media only screen and (min-width : 1024px) {
+    padding-top: 70px;
+  }
+}
+
+.error {
+  position: relative;
+  margin-top: 40px;
+}
+
+.qrcode {
+  margin: 0 auto;
+  margin-top: 30px;
+  display: block;
+  width: 128px;
+  height: 128px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}

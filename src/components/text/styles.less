@@ -1,0 +1,162 @@
+@import '../../styles/common/fonts.less';
+@import '../../styles/common/colors.less';
+
+.text {
+  font-family: @f-formular;
+  font-size: 13px;
+  color: inherit;
+  line-height: 1.5;
+  white-space: inherit;
+
+  &_uppercase {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+
+  &_capitalize {
+      text-transform: capitalize;
+  }
+
+  &_size {
+
+      &_11 {
+          font-size: 11px;
+      }
+
+      &_14 {
+          font-size: 14px;
+      }
+
+      &_16 {
+          font-size: 16px;
+      }
+
+      &_18 {
+          font-size: 18px;
+      }
+
+      &_20 {
+        font-size: 18px;
+
+        @media only screen and (min-width : 1024px) {
+          font-size: 20px;
+        }
+      }
+
+      &_30 {
+          font-size: 30px;
+      }
+
+      &_36 {
+          font-size: 36px;
+          line-height: 56px;
+      }
+
+      &_46 {
+        line-height: 42px;
+        font-size: 32px;
+
+        @media only screen and (min-width : 1024px) {
+          line-height: 56px;
+          font-size: 46px;
+        }
+      }
+
+      &_inherit {
+        font-size: inherit;
+        line-height: inherit;
+    }
+  }
+
+  &_size_tablet {
+    &_14 {
+      @media only screen and (max-width : 1023px) {
+          font-size: 14px;
+      }
+    }
+    &_24 {
+      @media only screen and (max-width : 1023px) {
+          font-size: 24px;
+          line-height: 30px;
+      }
+    }
+
+    &_32 {
+      @media only screen and (max-width : 1023px) {
+          font-size: 32px;
+          line-height: 36px;
+      }
+    }
+
+    &_16 {
+      @media only screen and (max-width : 1023px) {
+          font-size: 16px;
+      }
+    }
+
+    &_86 {
+      @media only screen and (max-width : 1023px) {
+          font-size: 86px;
+      }
+    }
+  }
+
+  &_tiny_mobile_size {
+    &_14 {
+      @media only screen and (max-width : 350px) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &_align {
+
+    &_left {
+      text-align-last: left;
+    }
+
+    &_center {
+      text-align-last: center;
+    }
+
+    &_right {
+      text-align-last: right;
+    }
+
+    &_justify {
+      text-align-last: justify;
+    }
+
+    &_inherit {
+      text-align-last: justify;
+    }
+  }
+
+  &_color {
+
+    &_black {
+      color: #000;
+    }
+
+    &_red {
+      color: @red;
+    }
+  }
+
+  &_fontInherit {
+    font-family: inherit;
+  }
+
+  &_noDecoration {
+    text-decoration: none;
+  }
+
+  &_threeSix {
+    font-family: @f-threesix;
+  }
+
+  &_isThreeSixB {
+    font-family: @f-threesix-b;
+  }
+
+}

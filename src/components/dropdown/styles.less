@@ -1,0 +1,209 @@
+@import '../../styles/common/common.less';
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.Dropdown-root {
+  position: relative;
+}
+
+.Dropdown-control {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  padding: 8px 52px 8px 10px;
+  transition: all 200ms ease;
+  background-repeat: no-repeat;
+  background-position: 94% center;
+  background-size: 30px;
+  &_pc {
+    background-image: url('../connectionsControl/images/pc.svg');
+  }
+  &_router {
+    background-image: url('../connectionsControl/images/router.svg');
+  }
+  &_mobile {
+    background-image: url('../connectionsControl/images/mobile.svg');
+  }
+  &_notebook {
+    background-image: url('../connectionsControl/images/pc.svg');
+  }
+  &_tv {
+    background-image: url('../connectionsControl/images/tv.svg');
+  }
+  &_tablet {
+    background-image: url('../connectionsControl/images/tab.svg');
+  }
+  &_langs {
+    padding: 7px 52px 7px 20px;
+    font-size: 14px;
+    font-family: @f-formular-m;
+    border-radius: 43px;
+    border-width: 2px;
+    border-color: @yellow;
+  }
+
+  &_pin {
+    padding: 14px 52px 14px 20px;
+    font-size: 18px;
+    font-family: @f-formular-m;
+    border-radius: 43px;
+    border-width: 2px;
+    border-color: @yellow;
+  }
+
+  span {
+    display: none;
+  }
+}
+
+.Dropdown-control:hover {
+  box-shadow: 0 1px 0 @yellow;
+  background-color: @yellow;
+
+  .Dropdown-arrow {
+    background-image: url('../banner/images/arrow-dark.svg');
+  }
+}
+
+.Dropdown-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  display: block;
+  width: 11px;
+  height: 11px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url('../banner/images/arrow.svg');
+  content: '';
+  transform: translateY(-50%);
+}
+
+.is-open .Dropdown-arrow {
+  border-color: transparent transparent #999;
+  border-width: 0 5px 5px;
+}
+
+.Dropdown-menu {
+  box-sizing: border-box;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(20px);
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-overflow-scrolling: touch;
+
+  &_mod_pin {
+    max-height: 400px;
+
+    .Dropdown-option {
+      padding: 10px 52px 10px 20px;
+    }
+  }
+}
+
+.Dropdown-menu .Dropdown-group > .Dropdown-title {
+  padding: 8px 10px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.Dropdown-option {
+  margin-top: 5px;
+  box-sizing: border-box;
+  color: rgba(51, 51, 51, 0.8);
+  cursor: pointer;
+  display: block;
+  border-color: #ffd200;
+  border-radius: 43px;
+  font-family: @f-formular-m;
+  font-size: 14px;
+  padding: 6px 52px 6px 20px;
+  border: 2px solid #BEBEBE;
+  background-color: #fff;
+
+  span {
+    display: none;
+  }
+}
+
+.Dropdown-option:hover {
+  background-color: #BEBEBE;
+  color: #333;
+
+  i {
+    display: none;
+  }
+
+  span {
+    display: block;
+  }
+}
+
+.Dropdown-option:active {
+  background-color: @yellow;
+  border-color: @yellow;
+}
+
+.Dropdown-noresults {
+  box-sizing: border-box;
+  color: #ccc;
+  cursor: default;
+  display: block;
+  padding: 8px 10px;
+}
+
+.optionType {
+  &_pc,
+  &_router,
+  &_mobile,
+  &_notebook,
+  &_tv,
+  &_tablet {
+    background-repeat: no-repeat;
+    background-position: 94% center;
+    background-size: 30px;
+  }
+  &_pc {
+    background-image: url('../connectionsControl/images/pc.svg');
+  }
+  &_router {
+    background-image: url('../connectionsControl/images/router.svg');
+  }
+  &_mobile {
+    background-image: url('../connectionsControl/images/mobile.svg');
+  }
+  &_notebook {
+    background-image: url('../connectionsControl/images/pc.svg');
+  }
+  &_tv {
+    background-image: url('../connectionsControl/images/tv.svg');
+  }
+  &_tablet {
+    background-image: url('../connectionsControl/images/tab.svg');
+  }
+}

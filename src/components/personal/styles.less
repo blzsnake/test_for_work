@@ -1,0 +1,245 @@
+@import '../../styles/common/common.less';
+
+.personal {
+  padding-top: 100px;
+
+  @media only screen and (min-width : 1024px) {
+    padding-top: 210px;
+  }
+}
+
+.header {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+
+
+  @media only screen and (min-width : 1024px) {
+    margin-bottom: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.menu {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+
+  &__item:not(:first-child) {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+
+.button {
+  margin-top: 60px;
+  max-width: 170px;
+  width: 100%;
+}
+
+.list {
+  margin-bottom: 70px;
+  display: block;
+
+  @media only screen and (min-width : 1024px) {
+    padding: 0 20px;
+  }
+
+  &__item {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid @pass-gray;
+    flex-direction: column;
+
+    @media only screen and (min-width : 1024px) {
+      padding-bottom: 35px;
+      padding-left: 0;
+      padding-top: 0;
+      border: none;
+      flex-direction: row;
+    }
+  }
+
+  &__name::before,
+  &__phone::before,
+  &__email::before {
+    height: 40px;
+    margin-right: 10px;
+    width: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../personal/images/person.svg');
+    content: '';
+
+    @media only screen and (min-width : 1024px) {
+      margin-right: 20px;
+      width: 57px;
+      height: 50px;
+    }
+  }
+
+  &__name_woman::before {
+    background-image: url('../personal/images/woman.svg');
+  }
+
+  &__field {
+    display: inline-block;
+    box-sizing: border-box;
+    border-color: rgba(255, 255, 255, 0)
+  }
+
+  &__phone::before {
+    position: relative;
+    top: 6px;
+    background-image: url('../personal/images/phone.svg');
+    background-position-y: 100%;
+    content: '';
+  }
+
+  &__email::before {
+    position: relative;
+    top: 6px;
+    background-image: url('../personal/images/email.svg');
+    background-position-y: 100%;
+    content: '';
+  }
+
+  &__toggle {
+    position: absolute;
+    left: 0;
+    top: 20px;
+
+    @media only screen and (min-width : 1024px) {
+      left: -20px;
+      top: 0;
+    }
+  }
+
+  &__toggleUp,
+  &__toggleDown {
+    position: relative;
+    width: 22px;
+    height: 17px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    &:hover {
+      background-color: @yellow;
+    }
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-bottom: 2px solid #000;
+      border-right: 2px solid #000;
+    }
+  }
+  &__toggleUp {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+    &::after {
+      top: 4px;
+      right: 4px;
+      transform: rotate(225deg);
+    }
+  }
+  &__toggleDown {
+    border-top: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    &::after {
+      left: 4px;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.hint {
+  &__wrapper {
+    padding-top: 40px;
+    display: flex;
+  }
+
+  &__info {
+    margin-right: 70px;
+    max-width: 670px;
+    width: 100%;
+  }
+
+  &__paragraph:not(:last-child) {
+    margin-bottom: 35px;
+  }
+
+  &__descr {
+    display: inline-block;
+  }
+
+  &__legend {
+    display: block;
+  }
+
+  &__item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__view {
+    margin-right: 40px;
+    display: inline-block;
+
+    &_save,
+    &_refresh,
+    &_add,
+    &_edit,
+    &_hint,
+    &_position {
+      height: 44px;
+      padding: 9px;
+      width: 44px;
+      border: 2px solid;
+      border-radius: 7px;
+      box-sizing: border-box;
+      flex-shrink: 0;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 62%;
+    }
+
+    &_hint {
+      background-size: 40%;
+      background-image: url("../personal/images/hint.svg");
+    }
+
+    &_add {
+      background-image: url("../personal/images/add.svg");
+    }
+
+    &_refresh {
+      background-image: url("../personal/images/refresh.svg");
+    }
+
+    &_edit {
+      margin-left: -15px;
+      margin-right: 30px;
+      width: 70px;
+      border: none;
+      background-size: 100%;
+      background-image: url("../personal/images/edit.svg");
+    }
+
+    &_save {
+      background-image: url("../personal/images/save.svg");
+    }
+  }
+}

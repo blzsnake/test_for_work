@@ -1,0 +1,2561 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render BannerPure render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BannerPure
+    freePinQuantity={11}
+    name="Mark Yuliy Cesar"
+    onMenuClick={[Function]}
+    pinQuantity={12}
+    validDate="2019.01.24"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Container>
+        <div
+          className="wrapper"
+        >
+          <div
+            className="info"
+          >
+            <div
+              className="title"
+            >
+              <Styled(Text)
+                isThreeSixB={true}
+                size={46}
+                sizeTablet={32}
+              >
+                <FormattedMessage
+                  id="banner_title"
+                  values={
+                    Object {
+                      "name": "Mark Yuliy Cesar",
+                    }
+                  }
+                />
+              </Styled(Text)>
+            </div>
+            <div
+              className={undefined}
+            >
+              <Styled(Text)
+                size={20}
+                sizeTablet={16}
+              >
+                <FormattedMessage
+                  id="banner_text"
+                  values={
+                    Object {
+                      "date": "2019.01.24",
+                      "pinFree": 11,
+                      "pinGuestTime": "",
+                      "pinGuests": "",
+                      "pinQuantity": 12,
+                    }
+                  }
+                />
+              </Styled(Text)>
+            </div>
+          </div>
+          <div
+            className="ghofi"
+          >
+            <img
+              alt="ghofi"
+              className={undefined}
+              src={[Function]}
+            />
+          </div>
+          <div
+            className="menu"
+          >
+            <div>
+              <div
+                className="switcher"
+              >
+                <Styled(Button)
+                  color={null}
+                  href="#connections"
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    fontInherit={true}
+                    size={14}
+                    uppercase={true}
+                  >
+                    <FormattedMessage
+                      id="banner_menu_1"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>
+              </div>
+              <div
+                className="switcher"
+              >
+                <Styled(Button)
+                  color={null}
+                  href="#finance"
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    fontInherit={true}
+                    size={14}
+                    uppercase={true}
+                  >
+                    <FormattedMessage
+                      id="banner_menu_2"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>
+              </div>
+              <div
+                className="switcher"
+              >
+                <Styled(Button)
+                  color={null}
+                  href="#personal"
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    fontInherit={true}
+                    size={14}
+                    uppercase={true}
+                  >
+                    <FormattedMessage
+                      id="banner_menu_4"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>
+              </div>
+              <div
+                className="switcher"
+              >
+                <Styled(Button)
+                  color={null}
+                  href="#access"
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    fontInherit={true}
+                    size={14}
+                    uppercase={true}
+                  >
+                    <FormattedMessage
+                      id="banner_menu_6"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="arrow"
+        >
+          <Button
+            disabled={false}
+            href="#connections"
+            menu={false}
+            mod="arrow-down"
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            tagName="button"
+            type="button"
+            wide={false}
+          />
+        </div>
+      </Container>,
+      "className": "banner",
+      "id": "banner",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="wrapper"
+          >
+            <div
+              className="info"
+            >
+              <div
+                className="title"
+              >
+                <Styled(Text)
+                  isThreeSixB={true}
+                  size={46}
+                  sizeTablet={32}
+                >
+                  <FormattedMessage
+                    id="banner_title"
+                    values={
+                      Object {
+                        "name": "Mark Yuliy Cesar",
+                      }
+                    }
+                  />
+                </Styled(Text)>
+              </div>
+              <div
+                className={undefined}
+              >
+                <Styled(Text)
+                  size={20}
+                  sizeTablet={16}
+                >
+                  <FormattedMessage
+                    id="banner_text"
+                    values={
+                      Object {
+                        "date": "2019.01.24",
+                        "pinFree": 11,
+                        "pinGuestTime": "",
+                        "pinGuests": "",
+                        "pinQuantity": 12,
+                      }
+                    }
+                  />
+                </Styled(Text)>
+              </div>
+            </div>
+            <div
+              className="ghofi"
+            >
+              <img
+                alt="ghofi"
+                className={undefined}
+                src={[Function]}
+              />
+            </div>
+            <div
+              className="menu"
+            >
+              <div>
+                <div
+                  className="switcher"
+                >
+                  <Styled(Button)
+                    color={null}
+                    href="#connections"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      fontInherit={true}
+                      size={14}
+                      uppercase={true}
+                    >
+                      <FormattedMessage
+                        id="banner_menu_1"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+                <div
+                  className="switcher"
+                >
+                  <Styled(Button)
+                    color={null}
+                    href="#finance"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      fontInherit={true}
+                      size={14}
+                      uppercase={true}
+                    >
+                      <FormattedMessage
+                        id="banner_menu_2"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+                <div
+                  className="switcher"
+                >
+                  <Styled(Button)
+                    color={null}
+                    href="#personal"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      fontInherit={true}
+                      size={14}
+                      uppercase={true}
+                    >
+                      <FormattedMessage
+                        id="banner_menu_4"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+                <div
+                  className="switcher"
+                >
+                  <Styled(Button)
+                    color={null}
+                    href="#access"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      fontInherit={true}
+                      size={14}
+                      uppercase={true}
+                    >
+                      <FormattedMessage
+                        id="banner_menu_6"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="arrow"
+          >
+            <Button
+              disabled={false}
+              href="#connections"
+              menu={false}
+              mod="arrow-down"
+              onClick={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              tagName="button"
+              type="button"
+              wide={false}
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="info"
+              >
+                <div
+                  className="title"
+                >
+                  <Styled(Text)
+                    isThreeSixB={true}
+                    size={46}
+                    sizeTablet={32}
+                  >
+                    <FormattedMessage
+                      id="banner_title"
+                      values={
+                        Object {
+                          "name": "Mark Yuliy Cesar",
+                        }
+                      }
+                    />
+                  </Styled(Text)>
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <Styled(Text)
+                    size={20}
+                    sizeTablet={16}
+                  >
+                    <FormattedMessage
+                      id="banner_text"
+                      values={
+                        Object {
+                          "date": "2019.01.24",
+                          "pinFree": 11,
+                          "pinGuestTime": "",
+                          "pinGuests": "",
+                          "pinQuantity": 12,
+                        }
+                      }
+                    />
+                  </Styled(Text)>
+                </div>
+              </div>,
+              <div
+                className="ghofi"
+              >
+                <img
+                  alt="ghofi"
+                  className={undefined}
+                  src={[Function]}
+                />
+              </div>,
+              <div
+                className="menu"
+              >
+                <div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#connections"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_1"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#finance"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_2"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#personal"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_4"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#access"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_6"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="title"
+                  >
+                    <Styled(Text)
+                      isThreeSixB={true}
+                      size={46}
+                      sizeTablet={32}
+                    >
+                      <FormattedMessage
+                        id="banner_title"
+                        values={
+                          Object {
+                            "name": "Mark Yuliy Cesar",
+                          }
+                        }
+                      />
+                    </Styled(Text)>
+                  </div>,
+                  <div
+                    className={undefined}
+                  >
+                    <Styled(Text)
+                      size={20}
+                      sizeTablet={16}
+                    >
+                      <FormattedMessage
+                        id="banner_text"
+                        values={
+                          Object {
+                            "date": "2019.01.24",
+                            "pinFree": 11,
+                            "pinGuestTime": "",
+                            "pinGuests": "",
+                            "pinQuantity": 12,
+                          }
+                        }
+                      />
+                    </Styled(Text)>
+                  </div>,
+                ],
+                "className": "info",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Styled(Text)
+                      isThreeSixB={true}
+                      size={46}
+                      sizeTablet={32}
+                    >
+                      <FormattedMessage
+                        id="banner_title"
+                        values={
+                          Object {
+                            "name": "Mark Yuliy Cesar",
+                          }
+                        }
+                      />
+                    </Styled(Text)>,
+                    "className": "title",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <FormattedMessage
+                        id="banner_title"
+                        values={
+                          Object {
+                            "name": "Mark Yuliy Cesar",
+                          }
+                        }
+                      />,
+                      "isThreeSixB": true,
+                      "size": 46,
+                      "sizeTablet": 32,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "id": "banner_title",
+                        "values": Object {
+                          "name": "Mark Yuliy Cesar",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Styled(Text)
+                      size={20}
+                      sizeTablet={16}
+                    >
+                      <FormattedMessage
+                        id="banner_text"
+                        values={
+                          Object {
+                            "date": "2019.01.24",
+                            "pinFree": 11,
+                            "pinGuestTime": "",
+                            "pinGuests": "",
+                            "pinQuantity": 12,
+                          }
+                        }
+                      />
+                    </Styled(Text)>,
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <FormattedMessage
+                        id="banner_text"
+                        values={
+                          Object {
+                            "date": "2019.01.24",
+                            "pinFree": 11,
+                            "pinGuestTime": "",
+                            "pinGuests": "",
+                            "pinQuantity": 12,
+                          }
+                        }
+                      />,
+                      "size": 20,
+                      "sizeTablet": 16,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "id": "banner_text",
+                        "values": Object {
+                          "date": "2019.01.24",
+                          "pinFree": 11,
+                          "pinGuestTime": "",
+                          "pinGuests": "",
+                          "pinQuantity": 12,
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="ghofi"
+                  className={undefined}
+                  src={[Function]}
+                />,
+                "className": "ghofi",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "ghofi",
+                  "className": undefined,
+                  "src": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#connections"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_1"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#finance"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_2"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#personal"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_4"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#access"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_6"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                </div>,
+                "className": "menu",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#connections"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_1"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>,
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#finance"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_2"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>,
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#personal"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_4"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>,
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#access"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_6"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Styled(Button)
+                        color={null}
+                        href="#connections"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_1"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>,
+                      "className": "switcher",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_1"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>,
+                        "color": null,
+                        "href": "#connections",
+                        "onClick": undefined,
+                        "wide": true,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <FormattedMessage
+                            id="banner_menu_1"
+                            values={Object {}}
+                          />,
+                          "fontInherit": true,
+                          "size": 14,
+                          "uppercase": true,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "id": "banner_menu_1",
+                            "values": Object {},
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Styled(Button)
+                        color={null}
+                        href="#finance"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_2"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>,
+                      "className": "switcher",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_2"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>,
+                        "color": null,
+                        "href": "#finance",
+                        "onClick": undefined,
+                        "wide": true,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <FormattedMessage
+                            id="banner_menu_2"
+                            values={Object {}}
+                          />,
+                          "fontInherit": true,
+                          "size": 14,
+                          "uppercase": true,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "id": "banner_menu_2",
+                            "values": Object {},
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Styled(Button)
+                        color={null}
+                        href="#personal"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_4"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>,
+                      "className": "switcher",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_4"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>,
+                        "color": null,
+                        "href": "#personal",
+                        "onClick": undefined,
+                        "wide": true,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <FormattedMessage
+                            id="banner_menu_4"
+                            values={Object {}}
+                          />,
+                          "fontInherit": true,
+                          "size": 14,
+                          "uppercase": true,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "id": "banner_menu_4",
+                            "values": Object {},
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Styled(Button)
+                        color={null}
+                        href="#access"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_6"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>,
+                      "className": "switcher",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_6"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>,
+                        "color": null,
+                        "href": "#access",
+                        "onClick": undefined,
+                        "wide": true,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <FormattedMessage
+                            id="banner_menu_6"
+                            values={Object {}}
+                          />,
+                          "fontInherit": true,
+                          "size": 14,
+                          "uppercase": true,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "id": "banner_menu_6",
+                            "values": Object {},
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Button
+              disabled={false}
+              href="#connections"
+              menu={false}
+              mod="arrow-down"
+              onClick={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              tagName="button"
+              type="button"
+              wide={false}
+            />,
+            "className": "arrow",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "href": "#connections",
+              "menu": false,
+              "mod": "arrow-down",
+              "onClick": [Function],
+              "onMouseLeave": [Function],
+              "onMouseOver": [Function],
+              "tagName": "button",
+              "type": "button",
+              "wide": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Container>
+          <div
+            className="wrapper"
+          >
+            <div
+              className="info"
+            >
+              <div
+                className="title"
+              >
+                <Styled(Text)
+                  isThreeSixB={true}
+                  size={46}
+                  sizeTablet={32}
+                >
+                  <FormattedMessage
+                    id="banner_title"
+                    values={
+                      Object {
+                        "name": "Mark Yuliy Cesar",
+                      }
+                    }
+                  />
+                </Styled(Text)>
+              </div>
+              <div
+                className={undefined}
+              >
+                <Styled(Text)
+                  size={20}
+                  sizeTablet={16}
+                >
+                  <FormattedMessage
+                    id="banner_text"
+                    values={
+                      Object {
+                        "date": "2019.01.24",
+                        "pinFree": 11,
+                        "pinGuestTime": "",
+                        "pinGuests": "",
+                        "pinQuantity": 12,
+                      }
+                    }
+                  />
+                </Styled(Text)>
+              </div>
+            </div>
+            <div
+              className="ghofi"
+            >
+              <img
+                alt="ghofi"
+                className={undefined}
+                src={[Function]}
+              />
+            </div>
+            <div
+              className="menu"
+            >
+              <div>
+                <div
+                  className="switcher"
+                >
+                  <Styled(Button)
+                    color={null}
+                    href="#connections"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      fontInherit={true}
+                      size={14}
+                      uppercase={true}
+                    >
+                      <FormattedMessage
+                        id="banner_menu_1"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+                <div
+                  className="switcher"
+                >
+                  <Styled(Button)
+                    color={null}
+                    href="#finance"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      fontInherit={true}
+                      size={14}
+                      uppercase={true}
+                    >
+                      <FormattedMessage
+                        id="banner_menu_2"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+                <div
+                  className="switcher"
+                >
+                  <Styled(Button)
+                    color={null}
+                    href="#personal"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      fontInherit={true}
+                      size={14}
+                      uppercase={true}
+                    >
+                      <FormattedMessage
+                        id="banner_menu_4"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+                <div
+                  className="switcher"
+                >
+                  <Styled(Button)
+                    color={null}
+                    href="#access"
+                    onClick={undefined}
+                    wide={true}
+                  >
+                    <Styled(Text)
+                      fontInherit={true}
+                      size={14}
+                      uppercase={true}
+                    >
+                      <FormattedMessage
+                        id="banner_menu_6"
+                        values={Object {}}
+                      />
+                    </Styled(Text)>
+                  </Styled(Button)>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="arrow"
+          >
+            <Button
+              disabled={false}
+              href="#connections"
+              menu={false}
+              mod="arrow-down"
+              onClick={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              tagName="button"
+              type="button"
+              wide={false}
+            />
+          </div>
+        </Container>,
+        "className": "banner",
+        "id": "banner",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <div
+              className="wrapper"
+            >
+              <div
+                className="info"
+              >
+                <div
+                  className="title"
+                >
+                  <Styled(Text)
+                    isThreeSixB={true}
+                    size={46}
+                    sizeTablet={32}
+                  >
+                    <FormattedMessage
+                      id="banner_title"
+                      values={
+                        Object {
+                          "name": "Mark Yuliy Cesar",
+                        }
+                      }
+                    />
+                  </Styled(Text)>
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <Styled(Text)
+                    size={20}
+                    sizeTablet={16}
+                  >
+                    <FormattedMessage
+                      id="banner_text"
+                      values={
+                        Object {
+                          "date": "2019.01.24",
+                          "pinFree": 11,
+                          "pinGuestTime": "",
+                          "pinGuests": "",
+                          "pinQuantity": 12,
+                        }
+                      }
+                    />
+                  </Styled(Text)>
+                </div>
+              </div>
+              <div
+                className="ghofi"
+              >
+                <img
+                  alt="ghofi"
+                  className={undefined}
+                  src={[Function]}
+                />
+              </div>
+              <div
+                className="menu"
+              >
+                <div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#connections"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_1"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#finance"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_2"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#personal"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_4"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                  <div
+                    className="switcher"
+                  >
+                    <Styled(Button)
+                      color={null}
+                      href="#access"
+                      onClick={undefined}
+                      wide={true}
+                    >
+                      <Styled(Text)
+                        fontInherit={true}
+                        size={14}
+                        uppercase={true}
+                      >
+                        <FormattedMessage
+                          id="banner_menu_6"
+                          values={Object {}}
+                        />
+                      </Styled(Text)>
+                    </Styled(Button)>
+                  </div>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="arrow"
+            >
+              <Button
+                disabled={false}
+                href="#connections"
+                menu={false}
+                mod="arrow-down"
+                onClick={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                tagName="button"
+                type="button"
+                wide={false}
+              />
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="info"
+                >
+                  <div
+                    className="title"
+                  >
+                    <Styled(Text)
+                      isThreeSixB={true}
+                      size={46}
+                      sizeTablet={32}
+                    >
+                      <FormattedMessage
+                        id="banner_title"
+                        values={
+                          Object {
+                            "name": "Mark Yuliy Cesar",
+                          }
+                        }
+                      />
+                    </Styled(Text)>
+                  </div>
+                  <div
+                    className={undefined}
+                  >
+                    <Styled(Text)
+                      size={20}
+                      sizeTablet={16}
+                    >
+                      <FormattedMessage
+                        id="banner_text"
+                        values={
+                          Object {
+                            "date": "2019.01.24",
+                            "pinFree": 11,
+                            "pinGuestTime": "",
+                            "pinGuests": "",
+                            "pinQuantity": 12,
+                          }
+                        }
+                      />
+                    </Styled(Text)>
+                  </div>
+                </div>,
+                <div
+                  className="ghofi"
+                >
+                  <img
+                    alt="ghofi"
+                    className={undefined}
+                    src={[Function]}
+                  />
+                </div>,
+                <div
+                  className="menu"
+                >
+                  <div>
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#connections"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_1"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#finance"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_2"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#personal"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_4"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#access"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_6"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>
+                  </div>
+                </div>,
+              ],
+              "className": "wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="title"
+                    >
+                      <Styled(Text)
+                        isThreeSixB={true}
+                        size={46}
+                        sizeTablet={32}
+                      >
+                        <FormattedMessage
+                          id="banner_title"
+                          values={
+                            Object {
+                              "name": "Mark Yuliy Cesar",
+                            }
+                          }
+                        />
+                      </Styled(Text)>
+                    </div>,
+                    <div
+                      className={undefined}
+                    >
+                      <Styled(Text)
+                        size={20}
+                        sizeTablet={16}
+                      >
+                        <FormattedMessage
+                          id="banner_text"
+                          values={
+                            Object {
+                              "date": "2019.01.24",
+                              "pinFree": 11,
+                              "pinGuestTime": "",
+                              "pinGuests": "",
+                              "pinQuantity": 12,
+                            }
+                          }
+                        />
+                      </Styled(Text)>
+                    </div>,
+                  ],
+                  "className": "info",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Styled(Text)
+                        isThreeSixB={true}
+                        size={46}
+                        sizeTablet={32}
+                      >
+                        <FormattedMessage
+                          id="banner_title"
+                          values={
+                            Object {
+                              "name": "Mark Yuliy Cesar",
+                            }
+                          }
+                        />
+                      </Styled(Text)>,
+                      "className": "title",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <FormattedMessage
+                          id="banner_title"
+                          values={
+                            Object {
+                              "name": "Mark Yuliy Cesar",
+                            }
+                          }
+                        />,
+                        "isThreeSixB": true,
+                        "size": 46,
+                        "sizeTablet": 32,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "id": "banner_title",
+                          "values": Object {
+                            "name": "Mark Yuliy Cesar",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Styled(Text)
+                        size={20}
+                        sizeTablet={16}
+                      >
+                        <FormattedMessage
+                          id="banner_text"
+                          values={
+                            Object {
+                              "date": "2019.01.24",
+                              "pinFree": 11,
+                              "pinGuestTime": "",
+                              "pinGuests": "",
+                              "pinQuantity": 12,
+                            }
+                          }
+                        />
+                      </Styled(Text)>,
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <FormattedMessage
+                          id="banner_text"
+                          values={
+                            Object {
+                              "date": "2019.01.24",
+                              "pinFree": 11,
+                              "pinGuestTime": "",
+                              "pinGuests": "",
+                              "pinQuantity": 12,
+                            }
+                          }
+                        />,
+                        "size": 20,
+                        "sizeTablet": 16,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "id": "banner_text",
+                          "values": Object {
+                            "date": "2019.01.24",
+                            "pinFree": 11,
+                            "pinGuestTime": "",
+                            "pinGuests": "",
+                            "pinQuantity": 12,
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt="ghofi"
+                    className={undefined}
+                    src={[Function]}
+                  />,
+                  "className": "ghofi",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "ghofi",
+                    "className": undefined,
+                    "src": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div>
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#connections"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_1"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#finance"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_2"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#personal"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_4"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>
+                    <div
+                      className="switcher"
+                    >
+                      <Styled(Button)
+                        color={null}
+                        href="#access"
+                        onClick={undefined}
+                        wide={true}
+                      >
+                        <Styled(Text)
+                          fontInherit={true}
+                          size={14}
+                          uppercase={true}
+                        >
+                          <FormattedMessage
+                            id="banner_menu_6"
+                            values={Object {}}
+                          />
+                        </Styled(Text)>
+                      </Styled(Button)>
+                    </div>
+                  </div>,
+                  "className": "menu",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="switcher"
+                      >
+                        <Styled(Button)
+                          color={null}
+                          href="#connections"
+                          onClick={undefined}
+                          wide={true}
+                        >
+                          <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_1"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>
+                        </Styled(Button)>
+                      </div>,
+                      <div
+                        className="switcher"
+                      >
+                        <Styled(Button)
+                          color={null}
+                          href="#finance"
+                          onClick={undefined}
+                          wide={true}
+                        >
+                          <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_2"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>
+                        </Styled(Button)>
+                      </div>,
+                      <div
+                        className="switcher"
+                      >
+                        <Styled(Button)
+                          color={null}
+                          href="#personal"
+                          onClick={undefined}
+                          wide={true}
+                        >
+                          <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_4"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>
+                        </Styled(Button)>
+                      </div>,
+                      <div
+                        className="switcher"
+                      >
+                        <Styled(Button)
+                          color={null}
+                          href="#access"
+                          onClick={undefined}
+                          wide={true}
+                        >
+                          <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_6"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>
+                        </Styled(Button)>
+                      </div>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Styled(Button)
+                          color={null}
+                          href="#connections"
+                          onClick={undefined}
+                          wide={true}
+                        >
+                          <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_1"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>
+                        </Styled(Button)>,
+                        "className": "switcher",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_1"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>,
+                          "color": null,
+                          "href": "#connections",
+                          "onClick": undefined,
+                          "wide": true,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <FormattedMessage
+                              id="banner_menu_1"
+                              values={Object {}}
+                            />,
+                            "fontInherit": true,
+                            "size": 14,
+                            "uppercase": true,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "id": "banner_menu_1",
+                              "values": Object {},
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Styled(Button)
+                          color={null}
+                          href="#finance"
+                          onClick={undefined}
+                          wide={true}
+                        >
+                          <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_2"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>
+                        </Styled(Button)>,
+                        "className": "switcher",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_2"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>,
+                          "color": null,
+                          "href": "#finance",
+                          "onClick": undefined,
+                          "wide": true,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <FormattedMessage
+                              id="banner_menu_2"
+                              values={Object {}}
+                            />,
+                            "fontInherit": true,
+                            "size": 14,
+                            "uppercase": true,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "id": "banner_menu_2",
+                              "values": Object {},
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Styled(Button)
+                          color={null}
+                          href="#personal"
+                          onClick={undefined}
+                          wide={true}
+                        >
+                          <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_4"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>
+                        </Styled(Button)>,
+                        "className": "switcher",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_4"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>,
+                          "color": null,
+                          "href": "#personal",
+                          "onClick": undefined,
+                          "wide": true,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <FormattedMessage
+                              id="banner_menu_4"
+                              values={Object {}}
+                            />,
+                            "fontInherit": true,
+                            "size": 14,
+                            "uppercase": true,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "id": "banner_menu_4",
+                              "values": Object {},
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Styled(Button)
+                          color={null}
+                          href="#access"
+                          onClick={undefined}
+                          wide={true}
+                        >
+                          <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_6"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>
+                        </Styled(Button)>,
+                        "className": "switcher",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <Styled(Text)
+                            fontInherit={true}
+                            size={14}
+                            uppercase={true}
+                          >
+                            <FormattedMessage
+                              id="banner_menu_6"
+                              values={Object {}}
+                            />
+                          </Styled(Text)>,
+                          "color": null,
+                          "href": "#access",
+                          "onClick": undefined,
+                          "wide": true,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <FormattedMessage
+                              id="banner_menu_6"
+                              values={Object {}}
+                            />,
+                            "fontInherit": true,
+                            "size": 14,
+                            "uppercase": true,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "id": "banner_menu_6",
+                              "values": Object {},
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Button
+                disabled={false}
+                href="#connections"
+                menu={false}
+                mod="arrow-down"
+                onClick={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                tagName="button"
+                type="button"
+                wide={false}
+              />,
+              "className": "arrow",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "href": "#connections",
+                "menu": false,
+                "mod": "arrow-down",
+                "onClick": [Function],
+                "onMouseLeave": [Function],
+                "onMouseOver": [Function],
+                "tagName": "button",
+                "type": "button",
+                "wide": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

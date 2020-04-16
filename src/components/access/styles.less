@@ -1,0 +1,69 @@
+@import '../../styles/common/common.less';
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.access {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  @media only screen and (min-width : 1024px) {
+    padding-top: 210px;
+    padding-bottom: 250px;
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 60px;
+  max-width: 170px;
+}
+
+.description {
+  margin-top: 80px;
+  color: @pass-gray;
+  animation: fadeIn 1.2s ease;
+}
+
+.wrapper {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  color: @pass-gray;
+}
+
+.qrcode {
+  margin-right: 70px;
+  width: 256px;
+  height: 256px;
+}
+
+.apps {
+  margin-top: 40px;
+}
+
+.apple,
+.google {
+  width: 180px;
+  height: 53px;
+}
+
+.apple {
+  margin-right: 24px;
+}
+
+.link {
+  color: @pass-gray;
+}

@@ -1,0 +1,93 @@
+@import '../../styles/common/common.less';
+
+.button {
+  padding: 12px 0;
+  display: inline-block;
+  text-align: center;
+  font-family: @f-formular-m;
+  border-radius: 30px;
+  border: 2px solid @yellow;
+  background-color: @transparent;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  transition: background-color .2s ease;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: @yellow;
+  }
+
+  &_wide {
+    width: 100%;
+  }
+
+  &_tiny {
+    padding: 4px 0;
+  }
+
+  &_header {
+    padding: 8px 0;
+  }
+
+  &_dialog {
+    padding: 4px 10px;
+    text-align: left;
+    border-radius: 10px;
+  }
+
+  &_arrow-down {
+    width: 52px;
+    height: 32px;
+    background-color: @transparent;
+    border: none;
+    border-radius: 0;
+    background-image: url('../banner/images/arrow.svg');
+    background-repeat: no-repeat;
+
+    &:hover {
+      background-color: @transparent;
+    }
+  }
+
+  &_arrow-up {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: @yellow;
+    background-image: url('../footer/images/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+  }
+
+  &_menu {
+    padding: 9px;
+    width: 44px;
+    height: 44px;
+    box-sizing: border-box;
+    font-family: @f-formular-b;
+    font-size: 18px;
+    line-height: 1;
+    border-radius: 7px;
+    border-color: #000
+  }
+
+  &_device-cancel {
+    padding: 2px 0;
+  }
+
+  &_support {
+    margin-left: 5px;
+    padding: 0px 8px;
+    line-height: 1;
+  }
+
+  &_color {
+    &_yellow {
+      background-color: @yellow;
+    }
+  }
+}

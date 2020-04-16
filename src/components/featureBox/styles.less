@@ -1,0 +1,41 @@
+.featureBox {
+  display: block;
+}
+
+.label {
+  position: relative;
+  display: block;
+  height: 34px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color .3s ease;
+
+  &::before {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 34px;
+    height: 34px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    content: '';
+    background-color: #fff;
+    transition: transform .3s ease;
+  }
+
+  &_checked::before {
+    transform: translateX(21px);
+  }
+}
+
+.field {
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  position: absolute;
+}

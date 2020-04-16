@@ -1,0 +1,73 @@
+@import '../../styles/common/common.less';
+
+.counter {
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+
+  &_checked {
+    .field {
+      background-color: @yellow;
+    }
+
+    .inc, .dec {
+      background-color: @light-yellow;
+    }
+  }
+}
+
+.field {
+  z-index: 1;
+  position: relative;
+  width: 72%;
+  height: 100%;
+  font-size: 18px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  box-sizing: border-box;
+  cursor: default;
+
+}
+
+.inc, .dec {
+  padding-right: 4px;
+  z-index: 0;
+  position: absolute;
+  right: 0;
+  height: 52%;
+  width: 40%;
+  text-align: right;
+  border: 2px solid 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &:active {
+    background-color: @yellow;
+  }
+
+  &::before {
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    content: '';
+    transform: rotate(225deg);
+  }
+}
+
+.inc {
+  top: 0;
+  border-top-right-radius: 10px;
+}
+
+.dec {
+  bottom: 0;
+  border-bottom-right-radius: 10px;
+
+  &::before {
+    transform:  translateY(-2px) rotate(45deg);
+  }
+}

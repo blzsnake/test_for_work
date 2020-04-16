@@ -1,0 +1,42 @@
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.connections {
+  padding-top: 80px;
+
+  @media only screen and (min-width : 1024px) {
+    padding-top: 210px;
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 30px;
+  max-width: 300px;
+
+  @media only screen and (min-width : 1024px) {
+    margin-top: 60px;
+  }
+}
+
+.controls {
+  padding-top: 50px;
+  animation: fadeIn 1.2s ease;
+
+  @media only screen and (min-width : 1024px) {
+    padding-top: 100px;
+  }
+}

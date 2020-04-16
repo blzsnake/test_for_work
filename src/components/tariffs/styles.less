@@ -1,0 +1,43 @@
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tariffs {
+  padding-top: 100px;
+
+  @media only screen and (min-width : 1024px) {
+    padding-top: 210px;
+  }
+}
+
+.tables {
+  animation: fadeIn 1.2s ease;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-right: 30px;
+  max-width: 170px;
+  width: 100%;
+}
+
+.controls {
+  padding-top: 50px;
+  display: flex;
+}
+
+.table {
+  margin-top: 50px;
+}

@@ -1,0 +1,71 @@
+.banner {
+  position: relative;
+  z-index: 10;
+  padding-top: 120px;
+  display: block;
+  background-color: #fff;
+  @media only screen and (min-width : 1024px) {
+    padding-top: 170px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  display: block;
+}
+
+.info,
+.ghofi,
+.menu {
+  width: 100%;
+}
+
+.info {
+  @media only screen and (min-width : 1024px) {
+    max-width: 330px;
+  }
+}
+
+.ghofi {
+  display: none;
+  @media only screen and (min-width : 1024px) {
+    max-width: 300px;
+    display: block;
+  }
+
+  @media only screen and (min-width : 1440px) {
+    max-width: 340px;
+    display: block;
+  }
+}
+
+.menu {
+  display: none;
+  @media only screen and (min-width : 1024px) {
+    max-width: 260px;
+    display: block;
+  }
+}
+
+.switcher {
+  margin-bottom: 20px;
+  font-weight: 600;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.arrow {
+  margin-top: 140px;
+  text-align: center;
+}

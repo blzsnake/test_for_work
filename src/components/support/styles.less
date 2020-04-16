@@ -1,0 +1,105 @@
+@import '../../styles/common/common.less';
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.support {
+  padding-top: 50px;
+
+  @media only screen and (min-width : 1024px) {
+    padding-top: 150px;
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+}
+
+.control {
+  margin-top: 70px;
+  max-width: 170px;
+  width: 100%;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+}
+
+.callQuestion {
+  margin-top: 70px;
+}
+
+.textarea {
+  padding: 10px;
+  width: 100%;
+  min-height: 280px;
+  font-size: 18px;
+  border: 2px solid @yellow;
+  border-radius: 7px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.select {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 42px;
+  border: 2px solid @yellow;
+  border-radius: 7px;
+
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid @yellow;
+}
+
+.drafts, .callQuestion {
+  animation: fadeIn 1.2s ease;
+}
+
+.dialog {
+  margin-bottom: 15px;
+}
+
+.dialogList {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.dialogItem {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.dialogCaller {
+  min-width: 40px;
+
+  @media only screen and (min-width : 1024px) {
+    min-width: 80px;
+  }
+}
+
+.dialogText {
+  padding-top: 3px;
+}
+
+.dialogCaller,
+.dialogText {
+  display: inline-block;
+}

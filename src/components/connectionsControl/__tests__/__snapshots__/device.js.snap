@@ -1,0 +1,649 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Device render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Device
+    freePinQuantity={11}
+    handleCancelPinClick={[Function]}
+    handleClick={[Function]}
+    mac={1}
+    name="Mark Yuliy Cesar"
+    pin={1}
+    type="string"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className={undefined}
+          onClick={undefined}
+          onKeyDown={undefined}
+          role="button"
+          tabIndex={0}
+        >
+          <img
+            alt="string"
+            className={undefined}
+            src={undefined}
+          />
+        </div>,
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <Styled(Text)
+              fontInherit={true}
+              size={16}
+              sizeTablet={14}
+            >
+              Mark Yuliy Cesar
+            </Styled(Text)>
+          </div>
+          <div
+            className={undefined}
+          >
+            <Styled(Text)
+              fontInherit={true}
+              size={16}
+              sizeTablet={14}
+            >
+              PIN 1
+            </Styled(Text)>
+          </div>
+          <div
+            className={undefined}
+          >
+            <Styled(Button)
+              color="yellow"
+              mod="device-cancel"
+              onClick={undefined}
+              wide={true}
+            >
+              <Styled(Text)
+                fontInherit={true}
+                size={11}
+                uppercase={true}
+              >
+                <FormattedMessage
+                  id="connections_control_button"
+                  values={Object {}}
+                />
+              </Styled(Text)>
+            </Styled(Button)>
+          </div>
+        </div>,
+      ],
+      "className": "device",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt="string"
+            className={undefined}
+            src={undefined}
+          />,
+          "className": undefined,
+          "onClick": undefined,
+          "onKeyDown": undefined,
+          "role": "button",
+          "tabIndex": 0,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "string",
+            "className": undefined,
+            "src": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className={undefined}
+            >
+              <Styled(Text)
+                fontInherit={true}
+                size={16}
+                sizeTablet={14}
+              >
+                Mark Yuliy Cesar
+              </Styled(Text)>
+            </div>,
+            <div
+              className={undefined}
+            >
+              <Styled(Text)
+                fontInherit={true}
+                size={16}
+                sizeTablet={14}
+              >
+                PIN 1
+              </Styled(Text)>
+            </div>,
+            <div
+              className={undefined}
+            >
+              <Styled(Button)
+                color="yellow"
+                mod="device-cancel"
+                onClick={undefined}
+                wide={true}
+              >
+                <Styled(Text)
+                  fontInherit={true}
+                  size={11}
+                  uppercase={true}
+                >
+                  <FormattedMessage
+                    id="connections_control_button"
+                    values={Object {}}
+                  />
+                </Styled(Text)>
+              </Styled(Button)>
+            </div>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Styled(Text)
+                fontInherit={true}
+                size={16}
+                sizeTablet={14}
+              >
+                Mark Yuliy Cesar
+              </Styled(Text)>,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Mark Yuliy Cesar",
+                "fontInherit": true,
+                "size": 16,
+                "sizeTablet": 14,
+              },
+              "ref": null,
+              "rendered": "Mark Yuliy Cesar",
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Styled(Text)
+                fontInherit={true}
+                size={16}
+                sizeTablet={14}
+              >
+                PIN 1
+              </Styled(Text)>,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "PIN 1",
+                "fontInherit": true,
+                "size": 16,
+                "sizeTablet": 14,
+              },
+              "ref": null,
+              "rendered": "PIN 1",
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Styled(Button)
+                color="yellow"
+                mod="device-cancel"
+                onClick={undefined}
+                wide={true}
+              >
+                <Styled(Text)
+                  fontInherit={true}
+                  size={11}
+                  uppercase={true}
+                >
+                  <FormattedMessage
+                    id="connections_control_button"
+                    values={Object {}}
+                  />
+                </Styled(Text)>
+              </Styled(Button)>,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Text)
+                  fontInherit={true}
+                  size={11}
+                  uppercase={true}
+                >
+                  <FormattedMessage
+                    id="connections_control_button"
+                    values={Object {}}
+                  />
+                </Styled(Text)>,
+                "color": "yellow",
+                "mod": "device-cancel",
+                "onClick": undefined,
+                "wide": true,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    id="connections_control_button"
+                    values={Object {}}
+                  />,
+                  "fontInherit": true,
+                  "size": 11,
+                  "uppercase": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "id": "connections_control_button",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className={undefined}
+            onClick={undefined}
+            onKeyDown={undefined}
+            role="button"
+            tabIndex={0}
+          >
+            <img
+              alt="string"
+              className={undefined}
+              src={undefined}
+            />
+          </div>,
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <Styled(Text)
+                fontInherit={true}
+                size={16}
+                sizeTablet={14}
+              >
+                Mark Yuliy Cesar
+              </Styled(Text)>
+            </div>
+            <div
+              className={undefined}
+            >
+              <Styled(Text)
+                fontInherit={true}
+                size={16}
+                sizeTablet={14}
+              >
+                PIN 1
+              </Styled(Text)>
+            </div>
+            <div
+              className={undefined}
+            >
+              <Styled(Button)
+                color="yellow"
+                mod="device-cancel"
+                onClick={undefined}
+                wide={true}
+              >
+                <Styled(Text)
+                  fontInherit={true}
+                  size={11}
+                  uppercase={true}
+                >
+                  <FormattedMessage
+                    id="connections_control_button"
+                    values={Object {}}
+                  />
+                </Styled(Text)>
+              </Styled(Button)>
+            </div>
+          </div>,
+        ],
+        "className": "device",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="string"
+              className={undefined}
+              src={undefined}
+            />,
+            "className": undefined,
+            "onClick": undefined,
+            "onKeyDown": undefined,
+            "role": "button",
+            "tabIndex": 0,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "string",
+              "className": undefined,
+              "src": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className={undefined}
+              >
+                <Styled(Text)
+                  fontInherit={true}
+                  size={16}
+                  sizeTablet={14}
+                >
+                  Mark Yuliy Cesar
+                </Styled(Text)>
+              </div>,
+              <div
+                className={undefined}
+              >
+                <Styled(Text)
+                  fontInherit={true}
+                  size={16}
+                  sizeTablet={14}
+                >
+                  PIN 1
+                </Styled(Text)>
+              </div>,
+              <div
+                className={undefined}
+              >
+                <Styled(Button)
+                  color="yellow"
+                  mod="device-cancel"
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    fontInherit={true}
+                    size={11}
+                    uppercase={true}
+                  >
+                    <FormattedMessage
+                      id="connections_control_button"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>
+              </div>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Styled(Text)
+                  fontInherit={true}
+                  size={16}
+                  sizeTablet={14}
+                >
+                  Mark Yuliy Cesar
+                </Styled(Text)>,
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Mark Yuliy Cesar",
+                  "fontInherit": true,
+                  "size": 16,
+                  "sizeTablet": 14,
+                },
+                "ref": null,
+                "rendered": "Mark Yuliy Cesar",
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Styled(Text)
+                  fontInherit={true}
+                  size={16}
+                  sizeTablet={14}
+                >
+                  PIN 1
+                </Styled(Text)>,
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "PIN 1",
+                  "fontInherit": true,
+                  "size": 16,
+                  "sizeTablet": 14,
+                },
+                "ref": null,
+                "rendered": "PIN 1",
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Styled(Button)
+                  color="yellow"
+                  mod="device-cancel"
+                  onClick={undefined}
+                  wide={true}
+                >
+                  <Styled(Text)
+                    fontInherit={true}
+                    size={11}
+                    uppercase={true}
+                  >
+                    <FormattedMessage
+                      id="connections_control_button"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>
+                </Styled(Button)>,
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Text)
+                    fontInherit={true}
+                    size={11}
+                    uppercase={true}
+                  >
+                    <FormattedMessage
+                      id="connections_control_button"
+                      values={Object {}}
+                    />
+                  </Styled(Text)>,
+                  "color": "yellow",
+                  "mod": "device-cancel",
+                  "onClick": undefined,
+                  "wide": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      id="connections_control_button"
+                      values={Object {}}
+                    />,
+                    "fontInherit": true,
+                    "size": 11,
+                    "uppercase": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "id": "connections_control_button",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
